@@ -1,0 +1,21 @@
+querySelector() selects the value just like css and helps in dom modification
+.textContent can be used as a getter and setter--getter to write the value 
+                                         getter-- to read the value
+also textContent can only be used for text stting and not HTML tag setting.
+
+document.querySelector().innerHTML = '<b> some text </b>'
+--->some text in bold
+document.querySelector().textContent = '<b> some text </b>';
+--->'<b> some text </b>'
+
+event and event listener
+execution stack and message queue.
+
+
+
+ //change acttive player.
+    if(activePlayer === 0){
+        activePlayer === 1;
+    }else{
+        activePlayer === 0
+    }
